@@ -1,7 +1,5 @@
 package com.eteam.dufour.mobile;
 
-import java.util.ArrayList;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
@@ -17,7 +15,6 @@ import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.ListPopupWindow;
 import android.widget.Spinner;
 import android.widget.TabHost;
 import android.widget.TabHost.OnTabChangeListener;
@@ -36,6 +33,8 @@ import com.eteam.dufour.fragments.FragmentProddoti;
 import com.eteam.dufour.fragments.FragmentPromozioni;
 import com.eteam.utils.Consts;
 import com.eteam.utils.Util;
+
+import java.util.ArrayList;
 
 public class SurveyTabActivity extends FragmentActivity 
 			implements OnTabChangeListener, OnSurveySentListener, OnClickListener
