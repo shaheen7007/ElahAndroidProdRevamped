@@ -1,0 +1,4 @@
+com.tjerkw.slideexpandable.library
+int id expandable 0x7f0c0001
+int id expandable_toggle_button 0x7f0c0002
+int id item 0x7f0c0003

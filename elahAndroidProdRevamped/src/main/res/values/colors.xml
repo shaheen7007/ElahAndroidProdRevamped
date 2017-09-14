@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="red">#FF0000</color>
+	<color name="white">#FFFFFF</color>
+	<color name="popup_window_button_background">#849CAD</color>
+	<color name="highlightedlist">#B7C3CA</color>
+	
+	<!-- Promo Colors -->
+
+	<color name="promo_active">#148152</color>
+	<color name="promo_expire">#c32b2b</color>
+	<color name="promo_future">#ffb93f</color>
+	<color name="promo_inactive">#b7c3ca</color>
+
+	<!-- Item selection colors -->
+	<color name="item_selected">#D8E1E6</color>
+	<color name="item_unselected">#FFFFFF</color>
+	
+	<color name="activity_background">#B4000000</color>
+</resources>
