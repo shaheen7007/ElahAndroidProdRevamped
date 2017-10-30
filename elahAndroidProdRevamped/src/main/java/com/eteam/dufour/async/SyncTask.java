@@ -253,11 +253,12 @@ public class SyncTask extends AsyncTask<Void, Integer, Integer>{
 	            int totalpages= table.getTotalPages();
 	            SQLiteStatement insert = null;
 	            String currentTable = "";
+				String url;
 	            for(int q=0; q<totalpages; q++)  {
 	            		
             		  String currentDate = getCurrentDate();
             		  if(Consts.DEBUGGABLE){
-	            		  String url = Consts.SERVER_URL+"/sync?reqfor="+tablename+"&pageno="+(q+1)+"&Starting_date="+currentDate+"&ct="+getMilliSeconds();
+	            		  url = Consts.SERVER_URL+"/sync?reqfor="+tablename+"&pageno="+(q+1)+"&Starting_date="+currentDate+"&ct="+getMilliSeconds();
 	            		  Log.d("Log", "Table url is = "+url);
             		  }
             		  
