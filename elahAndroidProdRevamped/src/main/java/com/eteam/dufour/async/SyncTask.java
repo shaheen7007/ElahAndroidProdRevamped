@@ -245,6 +245,8 @@ public class SyncTask extends AsyncTask<Void, Integer, Integer>{
      int tableNumber = 0;
      int tableListSize = tableList.size();
      xdb.beginTransaction();
+
+     //table insert logic
    	  try{
    	     if( tableListSize>0)  {
 	        for(int k=0;k<tableListSize;k++){

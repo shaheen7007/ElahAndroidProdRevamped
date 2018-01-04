@@ -20,7 +20,7 @@ public class Consts {
 	public static final String ERROR_URL = "http://121.241.180.136:8082/elaherror/error.jsp";
 	public static final String DB_NAME = "elahPreProd.db";*/
 	
-/*--------------------------------------------------------------------------------------------------------------------------------*/	
+/*--------------------------------------------------------------------------------------------------------------------------------*/
 	//ELAH TEST FROM (19-05-2014)
 	public static final String SERVER_URL 	= "http://test.elah-dufour.it/portal-test/mobile";
 	//public static final String SERVER_URL 	= "http://192.168.0.90:8081/elah/mobile";
@@ -28,7 +28,7 @@ public class Consts {
 	public static final String ERROR_URL 	= "http://121.241.180.136:8082/elaherror/error.jsp";
 	public static final String DB_NAME 		= "elahCustTest.db";
 	
-/*--------------------------------------------------------------------------------------------------------------------------------*/	
+/*--------------------------------------------------------------------------------------------------------------------------------*/
 	//ELAH PRODUCTION
 	
 	/*public static final String SERVER_URL = "http://web.elah-dufour.it/portal/mobile";
